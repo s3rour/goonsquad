@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goonsquad Racing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="site-header">
+        <div class="logo">Goon<span class="logo-dot">·</span>squad</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#builds">The Riders</a></li>
+                <li><a href="#latest-video">Latest Video</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <div id="home" class="hero">
+        <div class="hero-bg" id="heroBg"></div>
+
+        <div class="hero-content">
+            <p class="hero-label">Est. 2020 — Motocross Racing</p>
+            <h1 class="hero-title">GOON<br><em>SQUAD</em></h1>
+            <p class="hero-sub">A team forged from deep, interpersonal relationships — strengthened by unity, separated by nothing.</p>
+            <div class="hero-actions">
+                <a href="#builds" class="btn-primary">
+                    View The Garage
+                    <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M1 7h12M7 1l6 6-6 6"/>
+                    </svg>
+                </a>
+                <a href="#latest-video" class="btn-ghost">Watch Latest</a>
+            </div>
+        </div>
+
+        <div class="scroll-hint">
+            <div class="scroll-hint-line"></div>
+            <span>Scroll</span>
+        </div>
+    </div>
+
+    <!-- TICKER -->
+    <div class="ticker" aria-hidden="true">
+        <div class="ticker-track" id="tickerTrack">
+            <span class="ticker-item">Josh Jarvis</span>
+            <span class="ticker-item">Braxton Beebe</span>
+            <span class="ticker-item">Christopher Serour</span>
+            <span class="ticker-item">Ben Points</span>
+            <span class="ticker-item">Goonsquad Racing</span>
+            <span class="ticker-item">Built on Brotherhood</span>
+            <span class="ticker-item">Josh Jarvis</span>
+            <span class="ticker-item">Braxton Beebe</span>
+            <span class="ticker-item">Christopher Serour</span>
+            <span class="ticker-item">Ben Points</span>
+            <span class="ticker-item">Goonsquad Racing</span>
+            <span class="ticker-item">Built on Brotherhood</span>
+        </div>
+    </div>
+
+    <!-- STATS STRIP -->
+    <div class="stats-strip">
+        <div class="stats-strip-inner">
+            <div class="stat-item reveal">
+                <span class="stat-number">4<em>+</em></span>
+                <p class="stat-label">Active Riders</p>
+            </div>
+            <div class="stat-item reveal reveal-delay-1">
+                <span class="stat-number">200<em>+</em></span>
+                <p class="stat-label">Instagram Followers</p>
+            </div>
+            <div class="stat-item reveal reveal-delay-2">
+                <span class="stat-number">3<em>+</em></span>
+                <p class="stat-label">States Represented</p>
+            </div>
+            <div class="stat-item reveal reveal-delay-3">
+                <span class="stat-number">1<em>∞</em></span>
+                <p class="stat-label">Team United</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIDERS SECTION -->
+    <div id="builds" style="background: var(--dark2);">
+        <div class="section">
+            <div class="riders-header">
+                <div>
+                    <p class="section-eyebrow reveal">Active Roster</p>
+                    <h2 class="section-heading reveal reveal-delay-1">THE RIDERS</h2>
+                </div>
+                <span class="riders-count reveal">04</span>
+            </div>
+        </div>
+
+        <div class="riders-grid">
+
+            <div class="rider-card reveal">
+                <div class="rider-card-accent"></div>
+                <img src="img/16x9_118.png" alt="Josh Jarvis riding motocross" class="rider-card-img"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <div class="card-img-placeholder" style="display:none; position:absolute; inset:0;">JJ</div>
+                <div class="rider-card-overlay"></div>
+                <div class="rider-card-body">
+                    <p class="rider-number">01</p>
+                    <h3 class="rider-name">Josh Jarvis</h3>
+                    <p class="rider-title">The Canadian Castle</p>
+                    <p class="rider-desc">He doesn't chase podiums — he leaves roost and broken confidence in his wake.</p>
+                </div>
+            </div>
+
+            <div class="rider-card reveal reveal-delay-1">
+                <div class="rider-card-accent"></div>
+                <img src="img/16x9_124.png" alt="Braxton Beebe riding motocross" class="rider-card-img"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <div class="card-img-placeholder" style="display:none; position:absolute; inset:0;">BB</div>
+                <div class="rider-card-overlay"></div>
+                <div class="rider-card-body">
+                    <p class="rider-number">02</p>
+                    <h3 class="rider-name">Braxton Beebe</h3>
+                    <p class="rider-title">Built Different in the South</p>
+                    <p class="rider-desc">He hits jumps like gravity personally disrespected him.</p>
+                </div>
+            </div>
+
+            <div class="rider-card reveal reveal-delay-2">
+                <div class="rider-card-accent"></div>
+                <img src="img/16x9_187.png" alt="Christopher Serour riding motocross" class="rider-card-img"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <div class="card-img-placeholder" style="display:none; position:absolute; inset:0;">CS</div>
+                <div class="rider-card-overlay"></div>
+                <div class="rider-card-body">
+                    <p class="rider-number">03</p>
+                    <h3 class="rider-name">Christopher Serour</h3>
+                    <p class="rider-title">Florida's Sand Track Assassin</p>
+                    <p class="rider-desc">Built for deep ruts and bad decisions.</p>
+                </div>
+            </div>
+
+            <div class="rider-card reveal reveal-delay-3">
+                <div class="rider-card-accent"></div>
+                <img src="img/16x9_730.png" alt="Ben Points riding motocross" class="rider-card-img"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <div class="card-img-placeholder" style="display:none; position:absolute; inset:0;">BP</div>
+                <div class="rider-card-overlay"></div>
+                <div class="rider-card-body">
+                    <p class="rider-number">04</p>
+                    <h3 class="rider-name">Ben Points</h3>
+                    <p class="rider-title">Utah's Desert Weapon</p>
+                    <p class="rider-desc">Rides like brakes were just a suggestion.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- VIDEO SECTION -->
+    <section id="latest-video">
+        <div class="section">
+            <p class="section-eyebrow reveal">Fresh Drop</p>
+            <h2 class="section-heading reveal reveal-delay-1">LATEST VIDEO</h2>
+
+            <div class="video-wrapper reveal reveal-delay-2">
+                <div class="video-frame">
+                    <iframe src="https://www.youtube.com/embed/9HNQGU2_uZA" allowfullscreen
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </div>
+                <div class="video-meta">
+                    <span class="video-meta-label">Goonsquad Media — 2026</span>
+                    <span class="video-meta-badge">New Release</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="logo">Goon<span class="logo-dot">·</span>squad</span>
+                <p>A team made from deep, interpersonal relationships, strengthened by unity and built for the absolute best.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigate</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#builds">The Riders</a></li>
+                    <li><a href="#latest-video">Latest Video</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Follow</h4>
+                <ul>
+                    <li><a href="https://www.youtube.com/@PointsMXB" target="_blank">YouTube</a></li>
+                    <li><a href="https://www.instagram.com/gsr_goonsquad/" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.tiktok.com/@boxule" target="_blank">TikTok</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="footer-copy">&copy; 2026 Goonsquad Media. Built for the absolute best.</p>
+            <div class="social-links">
+                <a href="https://www.youtube.com/@PointsMXB" target="_blank">YT</a>
+                <a href="https://www.instagram.com/gsr_goonsquad/" target="_blank">IG</a>
+                <a href="https://www.tiktok.com/@boxule" target="_blank">TT</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        /* HEADER SCROLL */
+        const header = document.getElementById('site-header');
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('scrolled', window.scrollY > 60);
+        });
+
+        /* PARALLAX HERO */
+        const heroBg = document.getElementById('heroBg');
+        window.addEventListener('scroll', () => {
+            const scrollY = window.scrollY;
+            heroBg.style.transform = `scale(1.08) translateY(${scrollY * 0.3}px)`;
+        }, { passive: true });
+
+        /* SCROLL REVEAL */
+        const reveals = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12 });
+        reveals.forEach(el => observer.observe(el));
+
+        /* ANIMATED COUNTER */
+        function animateCount(el, target, suffix) {
+            let current = 0;
+            const step = target / 40;
+            const interval = setInterval(() => {
+                current += step;
+                if (current >= target) {
+                    current = target;
+                    clearInterval(interval);
+                }
+                el.querySelector('.stat-number').innerHTML = Math.floor(current) + '<em>' + suffix + '</em>';
+            }, 35);
+        }
+
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const statItems = entry.target.querySelectorAll('.stat-item');
+                    const data = [[4,'+'], [2,'k+'], [3,'+'],[1,'∞']];
+                    statItems.forEach((item, i) => {
+                        setTimeout(() => animateCount(item, data[i][0], data[i][1]), i * 120);
+                    });
+                    statsObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.3 });
+
+        const statsEl = document.querySelector('.stats-strip-inner');
+        if (statsEl) statsObserver.observe(statsEl);
+    </script>
+</body>
+</html>
