@@ -1,2 +1,2 @@
-# goonsquad
-Website for goonsquad racing
+# GOONSQUAD Racing
+Website for the MXB Team: Goonsquad Racing
